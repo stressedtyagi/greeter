@@ -1,2 +1,2 @@
-var test = $G();
-console.log(test);
+var myGreet = $G('Divyanshu','Tyagi','hi');
+myGreet.greet().setLang('es').greet(true);
